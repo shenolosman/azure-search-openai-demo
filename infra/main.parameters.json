@@ -78,7 +78,7 @@
       "value": "${AZURE_SEARCH_SEMANTIC_RANKER=free}"
     },
     "searchServiceQueryRewriting": {
-      "value": "${AZURE_SEARCH_QUERY_REWRITING=false}" 
+      "value": "${AZURE_SEARCH_QUERY_REWRITING=false}"
     },
     "searchFieldNameEmbedding": {
       "value": "${AZURE_SEARCH_FIELD_NAME_EMBEDDING=embedding3}"
@@ -117,28 +117,28 @@
       "value": "2025-11-13"
     },
     "chatGptDeploymentSkuName": {
-      "value": "GlobalStandard" 
+      "value": "GlobalStandard"
     },
     "chatGptDeploymentCapacity": {
-      "value": "50" 
+      "value": "15"
     },
     "embeddingModelName": {
-      "value": "text-embedding-3-large" 
+      "value": "text-embedding-3-large"
     },
     "embeddingDeploymentName": {
       "value": "${AZURE_OPENAI_EMB_DEPLOYMENT}"
     },
     "embeddingDeploymentVersion": {
-      "value": "1" 
+      "value": "1"
     },
     "embeddingDeploymentSkuName": {
-      "value": "GlobalStandard" 
+      "value": "GlobalStandard"
     },
     "embeddingDeploymentCapacity": {
       "value": "${AZURE_OPENAI_EMB_DEPLOYMENT_CAPACITY}"
     },
     "embeddingDimensions": {
-      "value": "3072" 
+      "value": "3072"
     },
     "evalModelName": {
       "value": "${AZURE_OPENAI_EVAL_MODEL}"
@@ -156,13 +156,13 @@
       "value": "${AZURE_OPENAI_EVAL_DEPLOYMENT_CAPACITY}"
     },
     "searchAgentModelName": {
-      "value": "gpt-4.1-mini" 
+      "value": "gpt-4.1-mini"
     },
     "searchAgentModelVersion": {
-      "value": "2025-04-14" 
+      "value": "2025-04-14"
     },
     "searchAgentDeploymentName": {
-      "value": "searchagent" 
+      "value": "searchagent"
     },
     "knowledgeBaseDeploymentSkuName": {
       "value": "${AZURE_OPENAI_KNOWLEDGEBASE_DEPLOYMENT_SKU}"
@@ -210,19 +210,19 @@
       "value": "${USE_EVAL=false}"
     },
     "useCloudIngestion": {
-      "value": "${USE_CLOUD_INGESTION=true}" 
+      "value": "${USE_CLOUD_INGESTION=true}"
     },
     "enableLanguagePicker": {
-      "value": "${ENABLE_LANGUAGE_PICKER=true}" 
+      "value": "${ENABLE_LANGUAGE_PICKER=true}"
     },
     "useSpeechInputBrowser": {
-      "value": "${USE_SPEECH_INPUT_BROWSER=true}" 
+      "value": "${USE_SPEECH_INPUT_BROWSER=true}"
     },
     "useSpeechOutputBrowser": {
-      "value": "${USE_SPEECH_OUTPUT_BROWSER=true}" 
+      "value": "${USE_SPEECH_OUTPUT_BROWSER=true}"
     },
     "useSpeechOutputAzure": {
-      "value": "${USE_SPEECH_OUTPUT_AZURE=true}" 
+      "value": "${USE_SPEECH_OUTPUT_AZURE=true}"
     },
     "speechServiceName": {
       "value": "${AZURE_SPEECH_SERVICE}"
@@ -240,10 +240,10 @@
       "value": "${USE_CHAT_HISTORY_BROWSER=false}"
     },
     "useChatHistoryCosmos": {
-      "value": "${USE_CHAT_HISTORY_COSMOS=true}" 
+      "value": "${USE_CHAT_HISTORY_COSMOS=true}"
     },
     "cosmosDbSkuName": {
-      "value": "${AZURE_COSMOSDB_SKU=serverless}"  
+      "value": "${AZURE_COSMOSDB_SKU=serverless}"
     },
     "cosmodDbResourceGroupName": {
       "value": "${AZURE_COSMOSDB_RESOURCE_GROUP}"
@@ -258,10 +258,10 @@
       "value": "${AZURE_COSMOSDB_THROUGHPUT}"
     },
     "speechServiceVoice": {
-      "value": "en-GB-SoniaNeural" 
+      "value": "en-GB-SoniaNeural"
     },
     "useAuthentication": {
-      "value": "${AZURE_USE_AUTHENTICATION=true}" 
+      "value": "${AZURE_USE_AUTHENTICATION=true}"
     },
     "enforceAccessControl": {
       "value": "${AZURE_ENFORCE_ACCESS_CONTROL=false}"
@@ -297,10 +297,10 @@
       "value": "${AZURE_PUBLIC_NETWORK_ACCESS=Enabled}"
     },
     "usePrivateEndpoint": {
-      "value": "${AZURE_USE_PRIVATE_ENDPOINT=false}" 
+      "value": "${AZURE_USE_PRIVATE_ENDPOINT=false}"
     },
     "useVpnGateway": {
-      "value": "${AZURE_USE_VPN_GATEWAY=false}" 
+      "value": "${AZURE_USE_VPN_GATEWAY=false}"
     },
     "bypass": {
       "value": "${AZURE_NETWORK_BYPASS=AzureServices}"
@@ -324,7 +324,7 @@
       "value": "${TF_BUILD}"
     },
     "deploymentTarget": {
-      "value": "${DEPLOYMENT_TARGET=appservice}" 
+      "value": "${DEPLOYMENT_TARGET=appservice}"
     },
     "webAppExists": {
       "value": "${SERVICE_WEB_RESOURCE_EXISTS=false}"

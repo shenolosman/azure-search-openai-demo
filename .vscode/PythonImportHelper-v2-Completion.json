@@ -9,6 +9,24 @@
         "documentation": {}
     },
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -682,6 +700,14 @@
         "documentation": {}
     },
     {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "dataclass",
         "importPath": "dataclasses",
         "description": "dataclasses",
@@ -691,6 +717,22 @@
     },
     {
         "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
         "importPath": "dataclasses",
         "description": "dataclasses",
         "isExtraImport": true,
@@ -1994,6 +2036,14 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -2010,315 +2060,451 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalClient",
-        "importPath": "azure.search.documents.agent.aio",
-        "description": "azure.search.documents.agent.aio",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.aio",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalClient",
-        "importPath": "azure.search.documents.agent.aio",
-        "description": "azure.search.documents.agent.aio",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.aio",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalClient",
-        "importPath": "azure.search.documents.agent.aio",
-        "description": "azure.search.documents.agent.aio",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.aio",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalClient",
-        "importPath": "azure.search.documents.agent.aio",
-        "description": "azure.search.documents.agent.aio",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.aio",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalClient",
-        "importPath": "azure.search.documents.agent.aio",
-        "description": "azure.search.documents.agent.aio",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.aio",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalClient",
-        "importPath": "azure.search.documents.agent.aio",
-        "description": "azure.search.documents.agent.aio",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.aio",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentMessage",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentMessageTextContent",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalRequest",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalResponse",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentSearchIndexActivityRecord",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.aio",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentSearchIndexReference",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.aio",
+        "documentation": {}
+    },
+    {
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.aio",
+        "documentation": {}
+    },
+    {
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.aio",
+        "documentation": {}
+    },
+    {
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.aio",
+        "documentation": {}
+    },
+    {
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.aio",
+        "documentation": {}
+    },
+    {
+        "label": "SearchClient",
+        "importPath": "azure.search.documents.aio",
+        "description": "azure.search.documents.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalClient",
+        "importPath": "azure.search.documents.knowledgebases.aio",
+        "description": "azure.search.documents.knowledgebases.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalClient",
+        "importPath": "azure.search.documents.knowledgebases.aio",
+        "description": "azure.search.documents.knowledgebases.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalClient",
+        "importPath": "azure.search.documents.knowledgebases.aio",
+        "description": "azure.search.documents.knowledgebases.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalClient",
+        "importPath": "azure.search.documents.knowledgebases.aio",
+        "description": "azure.search.documents.knowledgebases.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalClient",
+        "importPath": "azure.search.documents.knowledgebases.aio",
+        "description": "azure.search.documents.knowledgebases.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalClient",
+        "importPath": "azure.search.documents.knowledgebases.aio",
+        "description": "azure.search.documents.knowledgebases.aio",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.aio",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseMessage",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseMessageTextContent",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRemoteSharePointActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRemoteSharePointReference",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalRequest",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseRetrievalResponse",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseSearchIndexActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseSearchIndexReference",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseWebActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeBaseWebReference",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeRetrievalLowReasoningEffort",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeRetrievalMediumReasoningEffort",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeRetrievalMinimalReasoningEffort",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeRetrievalSemanticIntent",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeSourceParams",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSourceParams",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
         "label": "SearchIndexKnowledgeSourceParams",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentMessage",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "WebKnowledgeSourceParams",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentMessageTextContent",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseMessage",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentModelQueryPlanningActivityRecord",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseMessageTextContent",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalResponse",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseModelQueryPlanningActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentSearchIndexActivityArguments",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseRemoteSharePointActivityArguments",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentSearchIndexActivityRecord",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseRemoteSharePointActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentSearchIndexReference",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseRemoteSharePointReference",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentMessage",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseRetrievalResponse",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRetrievalResponse",
-        "importPath": "azure.search.documents.agent.models",
-        "description": "azure.search.documents.agent.models",
+        "label": "KnowledgeBaseSearchIndexActivityArguments",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.agent.models",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseSearchIndexActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseSearchIndexReference",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseWebActivityArguments",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseWebActivityRecord",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseWebReference",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseMessage",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
+        "label": "KnowledgeBaseRetrievalResponse",
+        "importPath": "azure.search.documents.knowledgebases.models",
+        "description": "azure.search.documents.knowledgebases.models",
         "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
-        "documentation": {}
-    },
-    {
-        "label": "SearchClient",
-        "importPath": "azure.search.documents.aio",
-        "description": "azure.search.documents.aio",
-        "isExtraImport": true,
-        "detail": "azure.search.documents.aio",
+        "detail": "azure.search.documents.knowledgebases.models",
         "documentation": {}
     },
     {
@@ -2740,14 +2926,6 @@
         "documentation": {}
     },
     {
-        "label": "ChatCompletionToolParam",
-        "importPath": "openai.types.chat",
-        "description": "openai.types.chat",
-        "isExtraImport": true,
-        "detail": "openai.types.chat",
-        "documentation": {}
-    },
-    {
         "label": "ChatCompletionMessageParam",
         "importPath": "openai.types.chat",
         "description": "openai.types.chat",
@@ -2781,6 +2959,14 @@
     },
     {
         "label": "ChatCompletionChunk",
+        "importPath": "openai.types.chat",
+        "description": "openai.types.chat",
+        "isExtraImport": true,
+        "detail": "openai.types.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatCompletion",
         "importPath": "openai.types.chat",
         "description": "openai.types.chat",
         "isExtraImport": true,
@@ -3084,21 +3270,43 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "Choice",
+        "importPath": "openai.types.chat.chat_completion",
+        "description": "openai.types.chat.chat_completion",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "openai.types.chat.chat_completion",
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
+        "label": "ChatCompletionMessage",
+        "importPath": "openai.types.chat.chat_completion",
+        "description": "openai.types.chat.chat_completion",
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
+        "detail": "openai.types.chat.chat_completion",
+        "documentation": {}
+    },
+    {
+        "label": "Choice",
+        "importPath": "openai.types.chat.chat_completion",
+        "description": "openai.types.chat.chat_completion",
+        "isExtraImport": true,
+        "detail": "openai.types.chat.chat_completion",
+        "documentation": {}
+    },
+    {
+        "label": "Choice",
+        "importPath": "openai.types.chat.chat_completion",
+        "description": "openai.types.chat.chat_completion",
+        "isExtraImport": true,
+        "detail": "openai.types.chat.chat_completion",
+        "documentation": {}
+    },
+    {
+        "label": "ChatCompletionMessage",
+        "importPath": "openai.types.chat.chat_completion_message",
+        "description": "openai.types.chat.chat_completion_message",
+        "isExtraImport": true,
+        "detail": "openai.types.chat.chat_completion_message",
         "documentation": {}
     },
     {
@@ -3151,6 +3359,38 @@
     },
     {
         "label": "Approach",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "DataPoints",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "RewriteQueryResult",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "ActivityDetail",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "DataPoints",
         "importPath": "approaches.approach",
         "description": "approaches.approach",
         "isExtraImport": true,
@@ -3159,6 +3399,38 @@
     },
     {
         "label": "Document",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "ExtraInfo",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "SharePointResult",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "ThoughtStep",
+        "importPath": "approaches.approach",
+        "description": "approaches.approach",
+        "isExtraImport": true,
+        "detail": "approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "WebResult",
         "importPath": "approaches.approach",
         "description": "approaches.approach",
         "isExtraImport": true,
@@ -3643,6 +3915,14 @@
         "documentation": {}
     },
     {
+        "label": "Response",
+        "importPath": "quart",
+        "description": "quart",
+        "isExtraImport": true,
+        "detail": "quart",
+        "documentation": {}
+    },
+    {
         "label": "CONFIG_CHAT_HISTORY_COSMOS_ENABLED",
         "importPath": "config",
         "description": "config",
@@ -3683,15 +3963,7 @@
         "documentation": {}
     },
     {
-        "label": "CONFIG_AGENT_CLIENT",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "CONFIG_AGENTIC_RETRIEVAL_ENABLED",
+        "label": "CONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -3755,6 +4027,14 @@
         "documentation": {}
     },
     {
+        "label": "CONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "CONFIG_GLOBAL_BLOB_MANAGER",
         "importPath": "config",
         "description": "config",
@@ -3764,6 +4044,38 @@
     },
     {
         "label": "CONFIG_INGESTER",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -3859,6 +4171,14 @@
         "documentation": {}
     },
     {
+        "label": "CONFIG_SHAREPOINT_SOURCE_ENABLED",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "CONFIG_SPEECH_INPUT_ENABLED",
         "importPath": "config",
         "description": "config",
@@ -3940,6 +4260,14 @@
     },
     {
         "label": "CONFIG_VECTOR_SEARCH_ENABLED",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_WEB_SOURCE_ENABLED",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -4342,7 +4670,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgent",
+        "label": "KnowledgeBase",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4350,7 +4678,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentAzureOpenAIModel",
+        "label": "KnowledgeBaseAzureOpenAIModel",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4358,7 +4686,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRequestLimits",
+        "label": "KnowledgeRetrievalOutputMode",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4375,6 +4703,22 @@
     },
     {
         "label": "PermissionFilter",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSource",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSourceParameters",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4415,6 +4759,14 @@
     },
     {
         "label": "SearchIndex",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "SearchIndexFieldReference",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4527,6 +4879,14 @@
     },
     {
         "label": "VectorSearchVectorizer",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "WebKnowledgeSource",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4822,7 +5182,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgent",
+        "label": "KnowledgeBase",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4830,7 +5190,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentAzureOpenAIModel",
+        "label": "KnowledgeBaseAzureOpenAIModel",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4838,7 +5198,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRequestLimits",
+        "label": "KnowledgeRetrievalOutputMode",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4855,6 +5215,22 @@
     },
     {
         "label": "PermissionFilter",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSource",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSourceParameters",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -4895,6 +5271,14 @@
     },
     {
         "label": "SearchIndex",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "SearchIndexFieldReference",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5007,6 +5391,14 @@
     },
     {
         "label": "VectorSearchVectorizer",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "WebKnowledgeSource",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5302,7 +5694,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgent",
+        "label": "KnowledgeBase",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5310,7 +5702,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentAzureOpenAIModel",
+        "label": "KnowledgeBaseAzureOpenAIModel",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5318,7 +5710,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRequestLimits",
+        "label": "KnowledgeRetrievalOutputMode",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5335,6 +5727,22 @@
     },
     {
         "label": "PermissionFilter",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSource",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSourceParameters",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5375,6 +5783,14 @@
     },
     {
         "label": "SearchIndex",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "SearchIndexFieldReference",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5487,6 +5903,14 @@
     },
     {
         "label": "VectorSearchVectorizer",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "WebKnowledgeSource",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5782,7 +6206,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgent",
+        "label": "KnowledgeBase",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5790,7 +6214,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentAzureOpenAIModel",
+        "label": "KnowledgeBaseAzureOpenAIModel",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5798,7 +6222,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgentRequestLimits",
+        "label": "KnowledgeRetrievalOutputMode",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5815,6 +6239,22 @@
     },
     {
         "label": "PermissionFilter",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSource",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteSharePointKnowledgeSourceParameters",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5855,6 +6295,14 @@
     },
     {
         "label": "SearchIndex",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
+        "label": "SearchIndexFieldReference",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -5974,6 +6422,14 @@
         "documentation": {}
     },
     {
+        "label": "WebKnowledgeSource",
+        "importPath": "azure.search.documents.indexes.models",
+        "description": "azure.search.documents.indexes.models",
+        "isExtraImport": true,
+        "detail": "azure.search.documents.indexes.models",
+        "documentation": {}
+    },
+    {
         "label": "PermissionFilter",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
@@ -6006,7 +6462,7 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeAgent",
+        "label": "KnowledgeBase",
         "importPath": "azure.search.documents.indexes.models",
         "description": "azure.search.documents.indexes.models",
         "isExtraImport": true,
@@ -10179,30 +10635,6 @@
         "documentation": {}
     },
     {
-        "label": "ChatCompletionMessage",
-        "importPath": "openai.types.chat.chat_completion",
-        "description": "openai.types.chat.chat_completion",
-        "isExtraImport": true,
-        "detail": "openai.types.chat.chat_completion",
-        "documentation": {}
-    },
-    {
-        "label": "Choice",
-        "importPath": "openai.types.chat.chat_completion",
-        "description": "openai.types.chat.chat_completion",
-        "isExtraImport": true,
-        "detail": "openai.types.chat.chat_completion",
-        "documentation": {}
-    },
-    {
-        "label": "Choice",
-        "importPath": "openai.types.chat.chat_completion",
-        "description": "openai.types.chat.chat_completion",
-        "isExtraImport": true,
-        "detail": "openai.types.chat.chat_completion",
-        "documentation": {}
-    },
-    {
         "label": "Usage",
         "importPath": "openai.types.create_embedding_response",
         "description": "openai.types.create_embedding_response",
@@ -10876,11 +11308,47 @@
         "documentation": {}
     },
     {
+        "label": "ActivityDetail",
+        "kind": 6,
+        "importPath": "app.backend.approaches.approach",
+        "description": "app.backend.approaches.approach",
+        "peekOfCode": "class ActivityDetail:\n    id: int\n    number: int\n    type: str\n    source: str\n    query: str\n@dataclass\nclass Document:\n    id: Optional[str] = None\n    ref_id: Optional[str] = None  # Reference id from agentic retrieval (if applicable)",
+        "detail": "app.backend.approaches.approach",
+        "documentation": {}
+    },
+    {
         "label": "Document",
         "kind": 6,
         "importPath": "app.backend.approaches.approach",
         "description": "app.backend.approaches.approach",
-        "peekOfCode": "class Document:\n    id: Optional[str] = None\n    content: Optional[str] = None\n    category: Optional[str] = None\n    sourcepage: Optional[str] = None\n    sourcefile: Optional[str] = None\n    oids: Optional[list[str]] = None\n    groups: Optional[list[str]] = None\n    captions: Optional[list[QueryCaptionResult]] = None\n    score: Optional[float] = None",
+        "peekOfCode": "class Document:\n    id: Optional[str] = None\n    ref_id: Optional[str] = None  # Reference id from agentic retrieval (if applicable)\n    content: Optional[str] = None\n    category: Optional[str] = None\n    sourcepage: Optional[str] = None\n    sourcefile: Optional[str] = None\n    oids: Optional[list[str]] = None\n    groups: Optional[list[str]] = None\n    captions: Optional[list[QueryCaptionResult]] = None",
+        "detail": "app.backend.approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "WebResult",
+        "kind": 6,
+        "importPath": "app.backend.approaches.approach",
+        "description": "app.backend.approaches.approach",
+        "peekOfCode": "class WebResult:\n    id: Optional[str] = None\n    title: Optional[str] = None\n    url: Optional[str] = None\n    snippet: Optional[str] = None\n    activity: Optional[ActivityDetail] = None\n    def serialize_for_results(self) -> dict[str, Any]:\n        return {\n            \"type\": \"web\",\n            \"id\": self.id,",
+        "detail": "app.backend.approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "SharePointResult",
+        "kind": 6,
+        "importPath": "app.backend.approaches.approach",
+        "description": "app.backend.approaches.approach",
+        "peekOfCode": "class SharePointResult:\n    id: Optional[str] = None\n    web_url: Optional[str] = None\n    content: Optional[str] = None\n    title: Optional[str] = None\n    reranker_score: Optional[float] = None\n    activity: Optional[ActivityDetail] = None\n    def serialize_for_results(self) -> dict[str, Any]:\n        return {\n            \"type\": \"remoteSharePoint\",",
+        "detail": "app.backend.approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "RewriteQueryResult",
+        "kind": 6,
+        "importPath": "app.backend.approaches.approach",
+        "description": "app.backend.approaches.approach",
+        "peekOfCode": "class RewriteQueryResult:\n    query: str\n    messages: list[ChatCompletionMessageParam]\n    completion: ChatCompletion\n    reasoning_effort: ChatCompletionReasoningEffort\n@dataclass\nclass ThoughtStep:\n    title: str\n    description: Optional[Any]\n    props: Optional[dict[str, Any]] = None",
         "detail": "app.backend.approaches.approach",
         "documentation": {}
     },
@@ -10889,7 +11357,16 @@
         "kind": 6,
         "importPath": "app.backend.approaches.approach",
         "description": "app.backend.approaches.approach",
-        "peekOfCode": "class ThoughtStep:\n    title: str\n    description: Optional[Any]\n    props: Optional[dict[str, Any]] = None\n    def update_token_usage(self, usage: CompletionUsage) -> None:\n        if self.props:\n            self.props[\"token_usage\"] = TokenUsageProps.from_completion_usage(usage)\n@dataclass\nclass DataPoints:\n    text: Optional[list[str]] = None",
+        "peekOfCode": "class ThoughtStep:\n    title: str\n    description: Optional[Any]\n    props: Optional[dict[str, Any]] = None\n    def update_token_usage(self, usage: CompletionUsage) -> None:\n        if self.props:\n            self.props[\"token_usage\"] = TokenUsageProps.from_completion_usage(usage)\n@dataclass\nclass AgenticRetrievalResults:\n    \"\"\"Results from agentic retrieval including activities, documents, web results, SharePoint results, and optional answer.\"\"\"",
+        "detail": "app.backend.approaches.approach",
+        "documentation": {}
+    },
+    {
+        "label": "AgenticRetrievalResults",
+        "kind": 6,
+        "importPath": "app.backend.approaches.approach",
+        "description": "app.backend.approaches.approach",
+        "peekOfCode": "class AgenticRetrievalResults:\n    \"\"\"Results from agentic retrieval including activities, documents, web results, SharePoint results, and optional answer.\"\"\"\n    response: KnowledgeBaseRetrievalResponse\n    documents: list[Document]\n    web_results: list[WebResult]\n    sharepoint_results: list[SharePointResult] = field(default_factory=list)\n    answer: Optional[str] = None  # Synthesized answer when web knowledge source is used\n    rewrite_result: Optional[RewriteQueryResult] = None\n    activity_details_by_id: Optional[dict[int, ActivityDetail]] = None\n    thoughts: list[ThoughtStep] = field(default_factory=list)",
         "detail": "app.backend.approaches.approach",
         "documentation": {}
     },
@@ -10898,7 +11375,7 @@
         "kind": 6,
         "importPath": "app.backend.approaches.approach",
         "description": "app.backend.approaches.approach",
-        "peekOfCode": "class DataPoints:\n    text: Optional[list[str]] = None\n    images: Optional[list] = None\n    citations: Optional[list[str]] = None\n@dataclass\nclass ExtraInfo:\n    data_points: DataPoints\n    thoughts: list[ThoughtStep] = field(default_factory=list)\n    followup_questions: Optional[list[Any]] = None\n@dataclass",
+        "peekOfCode": "class DataPoints:\n    text: Optional[list[str]] = None\n    images: Optional[list] = None\n    citations: Optional[list[str]] = None\n    external_results_metadata: Optional[list[dict[str, Any]]] = None\n    citation_activity_details: Optional[dict[str, dict[str, Any]]] = None\n@dataclass\nclass ExtraInfo:\n    data_points: DataPoints\n    thoughts: list[ThoughtStep] = field(default_factory=list)",
         "detail": "app.backend.approaches.approach",
         "documentation": {}
     },
@@ -10907,7 +11384,7 @@
         "kind": 6,
         "importPath": "app.backend.approaches.approach",
         "description": "app.backend.approaches.approach",
-        "peekOfCode": "class ExtraInfo:\n    data_points: DataPoints\n    thoughts: list[ThoughtStep] = field(default_factory=list)\n    followup_questions: Optional[list[Any]] = None\n@dataclass\nclass TokenUsageProps:\n    prompt_tokens: int\n    completion_tokens: int\n    reasoning_tokens: Optional[int]\n    total_tokens: int",
+        "peekOfCode": "class ExtraInfo:\n    data_points: DataPoints\n    thoughts: list[ThoughtStep] = field(default_factory=list)\n    followup_questions: Optional[list[Any]] = None\n    answer: Optional[str] = None  # Only when web knowledge source is used\n@dataclass\nclass TokenUsageProps:\n    prompt_tokens: int\n    completion_tokens: int\n    reasoning_tokens: Optional[int]",
         "detail": "app.backend.approaches.approach",
         "documentation": {}
     },
@@ -10943,7 +11420,7 @@
         "kind": 6,
         "importPath": "app.backend.approaches.chatreadretrieveread",
         "description": "app.backend.approaches.chatreadretrieveread",
-        "peekOfCode": "class ChatReadRetrieveReadApproach(Approach):\n    \"\"\"\n    A multi-step approach that first uses OpenAI to turn the user's question into a search query,\n    then uses Azure AI Search to retrieve relevant documents, and then sends the conversation history,\n    original user question, and search results to OpenAI to generate a response.\n    \"\"\"\n    NO_RESPONSE = \"0\"\n    def __init__(\n        self,\n        *,",
+        "peekOfCode": "class ChatReadRetrieveReadApproach(Approach):\n    \"\"\"\n    A multi-step approach that first uses OpenAI to turn the user's question into a search query,\n    then uses Azure AI Search to retrieve relevant documents, and then sends the conversation history,\n    original user question, and search results to OpenAI to generate a response.\n    \"\"\"\n    NO_RESPONSE = Approach.QUERY_REWRITE_NO_RESPONSE\n    def __init__(\n        self,\n        *,",
         "detail": "app.backend.approaches.chatreadretrieveread",
         "documentation": {}
     },
@@ -11474,7 +11951,7 @@
         "kind": 2,
         "importPath": "app.backend.prepdocslib.servicesetup",
         "description": "app.backend.prepdocslib.servicesetup",
-        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_retrieval: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    agent_name: Optional[str] = None,\n    agent_max_output_tokens: Optional[int] = None,\n    azure_openai_searchagent_deployment: Optional[str] = None,\n    azure_openai_searchagent_model: Optional[str] = None,",
+        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_knowledgebase: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    knowledgebase_name: Optional[str] = None,\n    azure_openai_knowledgebase_deployment: Optional[str] = None,\n    azure_openai_knowledgebase_model: Optional[str] = None,\n    search_key: Optional[str] = None,",
         "detail": "app.backend.prepdocslib.servicesetup",
         "documentation": {}
     },
@@ -11753,7 +12230,7 @@
         "kind": 6,
         "importPath": "app.backend.app",
         "description": "app.backend.app",
-        "peekOfCode": "class JSONEncoder(json.JSONEncoder):\n    def default(self, o):\n        if dataclasses.is_dataclass(o) and not isinstance(o, type):\n            return dataclasses.asdict(o)\n        return super().default(o)\nasync def format_as_ndjson(r: AsyncGenerator[dict, None]) -> AsyncGenerator[str, None]:\n    try:\n        async for event in r:\n            yield json.dumps(event, ensure_ascii=False, cls=JSONEncoder) + \"\\n\"\n    except Exception as error:",
+        "peekOfCode": "class JSONEncoder(json.JSONEncoder):\n    def default(self, o):\n        if dataclasses.is_dataclass(o) and not isinstance(o, type):\n            as_dict = dataclasses.asdict(o)\n            if isinstance(o, DataPoints):\n                # Drop optional data point collections that are not populated to keep API surface stable\n                return {k: v for k, v in as_dict.items() if v is not None}\n            data_points_payload = as_dict.get(\"data_points\") if isinstance(as_dict, dict) else None\n            if isinstance(data_points_payload, dict) and data_points_payload.get(\"citation_activity_details\") is None:\n                data_points_payload.pop(\"citation_activity_details\")",
         "detail": "app.backend.app",
         "documentation": {}
     },
@@ -11771,7 +12248,7 @@
         "kind": 2,
         "importPath": "app.backend.app",
         "description": "app.backend.app",
-        "peekOfCode": "def config():\n    return jsonify(\n        {\n            \"showMultimodalOptions\": current_app.config[CONFIG_MULTIMODAL_ENABLED],\n            \"showSemanticRankerOption\": current_app.config[CONFIG_SEMANTIC_RANKER_DEPLOYED],\n            \"showQueryRewritingOption\": current_app.config[CONFIG_QUERY_REWRITING_ENABLED],\n            \"showReasoningEffortOption\": current_app.config[CONFIG_REASONING_EFFORT_ENABLED],\n            \"streamingEnabled\": current_app.config[CONFIG_STREAMING_ENABLED],\n            \"defaultReasoningEffort\": current_app.config[CONFIG_DEFAULT_REASONING_EFFORT],\n            \"showVectorOption\": current_app.config[CONFIG_VECTOR_SEARCH_ENABLED],",
+        "peekOfCode": "def config():\n    return jsonify(\n        {\n            \"showMultimodalOptions\": current_app.config[CONFIG_MULTIMODAL_ENABLED],\n            \"showSemanticRankerOption\": current_app.config[CONFIG_SEMANTIC_RANKER_DEPLOYED],\n            \"showQueryRewritingOption\": current_app.config[CONFIG_QUERY_REWRITING_ENABLED],\n            \"showReasoningEffortOption\": current_app.config[CONFIG_REASONING_EFFORT_ENABLED],\n            \"streamingEnabled\": current_app.config[CONFIG_STREAMING_ENABLED],\n            \"defaultReasoningEffort\": current_app.config[CONFIG_DEFAULT_REASONING_EFFORT],\n            \"defaultRetrievalReasoningEffort\": current_app.config[CONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT],",
         "detail": "app.backend.app",
         "documentation": {}
     },
@@ -11825,7 +12302,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_CHAT_APPROACH = \"chat_approach\"\nCONFIG_GLOBAL_BLOB_MANAGER = \"global_blob_manager\"\nCONFIG_USER_BLOB_MANAGER = \"user_blob_manager\"\nCONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"",
+        "peekOfCode": "CONFIG_CHAT_APPROACH = \"chat_approach\"\nCONFIG_GLOBAL_BLOB_MANAGER = \"global_blob_manager\"\nCONFIG_USER_BLOB_MANAGER = \"user_blob_manager\"\nCONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11834,7 +12311,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_GLOBAL_BLOB_MANAGER = \"global_blob_manager\"\nCONFIG_USER_BLOB_MANAGER = \"user_blob_manager\"\nCONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"",
+        "peekOfCode": "CONFIG_GLOBAL_BLOB_MANAGER = \"global_blob_manager\"\nCONFIG_USER_BLOB_MANAGER = \"user_blob_manager\"\nCONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11843,7 +12320,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_USER_BLOB_MANAGER = \"user_blob_manager\"\nCONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"",
+        "peekOfCode": "CONFIG_USER_BLOB_MANAGER = \"user_blob_manager\"\nCONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11852,7 +12329,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"",
+        "peekOfCode": "CONFIG_USER_UPLOAD_ENABLED = \"user_upload_enabled\"\nCONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11861,7 +12338,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"",
+        "peekOfCode": "CONFIG_AUTH_CLIENT = \"auth_client\"\nCONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11870,7 +12347,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"",
+        "peekOfCode": "CONFIG_SEMANTIC_RANKER_DEPLOYED = \"semantic_ranker_deployed\"\nCONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11879,7 +12356,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"",
+        "peekOfCode": "CONFIG_QUERY_REWRITING_ENABLED = \"query_rewriting_enabled\"\nCONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11888,7 +12365,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"",
+        "peekOfCode": "CONFIG_REASONING_EFFORT_ENABLED = \"reasoning_effort_enabled\"\nCONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11897,7 +12374,16 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"",
+        "peekOfCode": "CONFIG_DEFAULT_REASONING_EFFORT = \"default_reasoning_effort\"\nCONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"",
+        "detail": "app.backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT",
+        "kind": 5,
+        "importPath": "app.backend.config",
+        "description": "app.backend.config",
+        "peekOfCode": "CONFIG_DEFAULT_RETRIEVAL_REASONING_EFFORT = \"default_retrieval_reasoning_effort\"\nCONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11906,7 +12392,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"",
+        "peekOfCode": "CONFIG_VECTOR_SEARCH_ENABLED = \"vector_search_enabled\"\nCONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11915,7 +12401,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"",
+        "peekOfCode": "CONFIG_SEARCH_CLIENT = \"search_client\"\nCONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11924,16 +12410,43 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"",
+        "peekOfCode": "CONFIG_OPENAI_CLIENT = \"openai_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
     {
-        "label": "CONFIG_AGENT_CLIENT",
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT",
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_AGENT_CLIENT = \"agent_client\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"",
+        "peekOfCode": "CONFIG_KNOWLEDGEBASE_CLIENT = \"knowledgebase_client\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"",
+        "detail": "app.backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB",
+        "kind": 5,
+        "importPath": "app.backend.config",
+        "description": "app.backend.config",
+        "peekOfCode": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB = \"knowledgebase_client_with_web\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"",
+        "detail": "app.backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT",
+        "kind": 5,
+        "importPath": "app.backend.config",
+        "description": "app.backend.config",
+        "peekOfCode": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_SHAREPOINT = \"knowledgebase_client_with_sharepoint\"\nCONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"",
+        "detail": "app.backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT",
+        "kind": 5,
+        "importPath": "app.backend.config",
+        "description": "app.backend.config",
+        "peekOfCode": "CONFIG_KNOWLEDGEBASE_CLIENT_WITH_WEB_AND_SHAREPOINT = \"knowledgebase_client_with_web_and_sharepoint\"\nCONFIG_INGESTER = \"ingester\"\nCONFIG_LANGUAGE_PICKER_ENABLED = \"language_picker_enabled\"\nCONFIG_SPEECH_INPUT_ENABLED = \"speech_input_enabled\"\nCONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11969,7 +12482,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"",
+        "peekOfCode": "CONFIG_SPEECH_OUTPUT_BROWSER_ENABLED = \"speech_output_browser_enabled\"\nCONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11978,7 +12491,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"",
+        "peekOfCode": "CONFIG_SPEECH_OUTPUT_AZURE_ENABLED = \"speech_output_azure_enabled\"\nCONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11987,7 +12500,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"",
+        "peekOfCode": "CONFIG_SPEECH_SERVICE_ID = \"speech_service_id\"\nCONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -11996,7 +12509,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"",
+        "peekOfCode": "CONFIG_SPEECH_SERVICE_LOCATION = \"speech_service_location\"\nCONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12005,7 +12518,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"",
+        "peekOfCode": "CONFIG_SPEECH_SERVICE_TOKEN = \"speech_service_token\"\nCONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12014,7 +12527,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"",
+        "peekOfCode": "CONFIG_SPEECH_SERVICE_VOICE = \"speech_service_voice\"\nCONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12023,7 +12536,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"",
+        "peekOfCode": "CONFIG_STREAMING_ENABLED = \"streaming_enabled\"\nCONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12032,7 +12545,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"",
+        "peekOfCode": "CONFIG_CHAT_HISTORY_BROWSER_ENABLED = \"chat_history_browser_enabled\"\nCONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12041,16 +12554,16 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_CHAT_HISTORY_COSMOS_ENABLED = \"chat_history_cosmos_enabled\"\nCONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
     {
-        "label": "CONFIG_AGENTIC_RETRIEVAL_ENABLED",
+        "label": "CONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED",
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_AGENTIC_RETRIEVAL_ENABLED = \"agentic_retrieval\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_AGENTIC_KNOWLEDGEBASE_ENABLED = \"agentic_knowledgebase_enabled\"\nCONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12059,7 +12572,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_COSMOS_HISTORY_CLIENT = \"cosmos_history_client\"\nCONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12068,7 +12581,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_COSMOS_HISTORY_CONTAINER = \"cosmos_history_container\"\nCONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12077,7 +12590,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_COSMOS_HISTORY_VERSION = \"cosmos_history_version\"\nCONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12086,7 +12599,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_MULTIMODAL_ENABLED = \"multimodal_enabled\"\nCONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12095,7 +12608,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_RAG_SEARCH_TEXT_EMBEDDINGS = \"rag_search_text_embeddings\"\nCONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12104,7 +12617,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_RAG_SEARCH_IMAGE_EMBEDDINGS = \"rag_search_image_embeddings\"\nCONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12113,7 +12626,7 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_RAG_SEND_TEXT_SOURCES = \"rag_send_text_sources\"\nCONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12122,7 +12635,25 @@
         "kind": 5,
         "importPath": "app.backend.config",
         "description": "app.backend.config",
-        "peekOfCode": "CONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"",
+        "peekOfCode": "CONFIG_RAG_SEND_IMAGE_SOURCES = \"rag_send_image_sources\"\nCONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
+        "detail": "app.backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_WEB_SOURCE_ENABLED",
+        "kind": 5,
+        "importPath": "app.backend.config",
+        "description": "app.backend.config",
+        "peekOfCode": "CONFIG_WEB_SOURCE_ENABLED = \"web_source_enabled\"\nCONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
+        "detail": "app.backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_SHAREPOINT_SOURCE_ENABLED",
+        "kind": 5,
+        "importPath": "app.backend.config",
+        "description": "app.backend.config",
+        "peekOfCode": "CONFIG_SHAREPOINT_SOURCE_ENABLED = \"sharepoint_source_enabled\"",
         "detail": "app.backend.config",
         "documentation": {}
     },
@@ -12815,7 +13346,7 @@
         "kind": 2,
         "importPath": "app.functions.document_extractor.prepdocslib.servicesetup",
         "description": "app.functions.document_extractor.prepdocslib.servicesetup",
-        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_retrieval: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    agent_name: Optional[str] = None,\n    agent_max_output_tokens: Optional[int] = None,\n    azure_openai_searchagent_deployment: Optional[str] = None,\n    azure_openai_searchagent_model: Optional[str] = None,",
+        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_knowledgebase: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    knowledgebase_name: Optional[str] = None,\n    azure_openai_knowledgebase_deployment: Optional[str] = None,\n    azure_openai_knowledgebase_model: Optional[str] = None,\n    search_key: Optional[str] = None,",
         "detail": "app.functions.document_extractor.prepdocslib.servicesetup",
         "documentation": {}
     },
@@ -13607,7 +14138,7 @@
         "kind": 2,
         "importPath": "app.functions.figure_processor.prepdocslib.servicesetup",
         "description": "app.functions.figure_processor.prepdocslib.servicesetup",
-        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_retrieval: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    agent_name: Optional[str] = None,\n    agent_max_output_tokens: Optional[int] = None,\n    azure_openai_searchagent_deployment: Optional[str] = None,\n    azure_openai_searchagent_model: Optional[str] = None,",
+        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_knowledgebase: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    knowledgebase_name: Optional[str] = None,\n    azure_openai_knowledgebase_deployment: Optional[str] = None,\n    azure_openai_knowledgebase_model: Optional[str] = None,\n    search_key: Optional[str] = None,",
         "detail": "app.functions.figure_processor.prepdocslib.servicesetup",
         "documentation": {}
     },
@@ -14381,7 +14912,7 @@
         "kind": 2,
         "importPath": "app.functions.text_processor.prepdocslib.servicesetup",
         "description": "app.functions.text_processor.prepdocslib.servicesetup",
-        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_retrieval: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    agent_name: Optional[str] = None,\n    agent_max_output_tokens: Optional[int] = None,\n    azure_openai_searchagent_deployment: Optional[str] = None,\n    azure_openai_searchagent_model: Optional[str] = None,",
+        "peekOfCode": "def setup_search_info(\n    search_service: str,\n    index_name: str,\n    azure_credential: AsyncTokenCredential,\n    use_agentic_knowledgebase: Optional[bool] = None,\n    azure_openai_endpoint: Optional[str] = None,\n    knowledgebase_name: Optional[str] = None,\n    azure_openai_knowledgebase_deployment: Optional[str] = None,\n    azure_openai_knowledgebase_model: Optional[str] = None,\n    search_key: Optional[str] = None,",
         "detail": "app.functions.text_processor.prepdocslib.servicesetup",
         "documentation": {}
     },
@@ -14980,15 +15511,6 @@
         "documentation": {}
     },
     {
-        "label": "create_mock_retrieve",
-        "kind": 2,
-        "importPath": "tests.conftest",
-        "description": "tests.conftest",
-        "peekOfCode": "def create_mock_retrieve(response_type=\"default\"):\n    \"\"\"Create a mock_retrieve function that returns different response types.\n    Supported response_type values:\n      - \"default\": single reference response\n      - \"sorting\": multiple refs to test ordering / interleaving\n      - \"top_limit\": many refs to test early breaking via top limit\n    \"\"\"\n    async def mock_retrieve_parameterized(self, *args, **kwargs):\n        retrieval_request = kwargs.get(\"retrieval_request\")\n        assert retrieval_request is not None",
-        "detail": "tests.conftest",
-        "documentation": {}
-    },
-    {
         "label": "mock_azurehttp_calls",
         "kind": 2,
         "importPath": "tests.conftest",
@@ -15047,16 +15569,16 @@
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def mock_acs_search(monkeypatch):\n    monkeypatch.setattr(SearchClient, \"search\", mock_search)\n    async def mock_get_index(*args, **kwargs):\n        return MockSearchIndex\n    monkeypatch.setattr(SearchIndexClient, \"get_index\", mock_get_index)\n@pytest.fixture\ndef mock_acs_agent(monkeypatch):\n    monkeypatch.setattr(KnowledgeAgentRetrievalClient, \"retrieve\", create_mock_retrieve())\n    async def mock_get_agent(*args, **kwargs):\n        return MockAgent",
+        "peekOfCode": "def mock_acs_search(monkeypatch):\n    monkeypatch.setattr(SearchClient, \"search\", mock_search)\n    async def mock_get_index(*args, **kwargs):\n        return MockSearchIndex\n    monkeypatch.setattr(SearchIndexClient, \"get_index\", mock_get_index)\n@pytest.fixture\ndef mock_search_knowledgebase(monkeypatch):\n    monkeypatch.setattr(KnowledgeBaseRetrievalClient, \"retrieve\", create_mock_retrieve(\"auto\"))\n    async def mock_get_knowledge_base(*args, **kwargs):\n        return MockKnowledgeBase",
         "detail": "tests.conftest",
         "documentation": {}
     },
     {
-        "label": "mock_acs_agent",
+        "label": "mock_search_knowledgebase",
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def mock_acs_agent(monkeypatch):\n    monkeypatch.setattr(KnowledgeAgentRetrievalClient, \"retrieve\", create_mock_retrieve())\n    async def mock_get_agent(*args, **kwargs):\n        return MockAgent\n    monkeypatch.setattr(SearchIndexClient, \"get_agent\", mock_get_agent)\n@pytest.fixture\ndef mock_acs_search_filter(monkeypatch):\n    monkeypatch.setattr(SearchClient, \"search\", mock_search)\n    async def mock_get_index(*args, **kwargs):\n        return MockSearchIndex",
+        "peekOfCode": "def mock_search_knowledgebase(monkeypatch):\n    monkeypatch.setattr(KnowledgeBaseRetrievalClient, \"retrieve\", create_mock_retrieve(\"auto\"))\n    async def mock_get_knowledge_base(*args, **kwargs):\n        return MockKnowledgeBase\n    monkeypatch.setattr(SearchIndexClient, \"get_knowledge_base\", mock_get_knowledge_base)\n@pytest.fixture\ndef mock_acs_search_filter(monkeypatch):\n    monkeypatch.setattr(SearchClient, \"search\", mock_search)\n    async def mock_get_index(*args, **kwargs):\n        return MockSearchIndex",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -15115,20 +15637,20 @@
         "documentation": {}
     },
     {
-        "label": "mock_agent_env",
+        "label": "mock_knowledgebase_env",
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def mock_agent_env(monkeypatch, request):\n    with mock.patch.dict(os.environ, clear=True):\n        monkeypatch.setenv(\"AZURE_STORAGE_ACCOUNT\", \"test-storage-account\")\n        monkeypatch.setenv(\"AZURE_STORAGE_CONTAINER\", \"test-storage-container\")\n        monkeypatch.setenv(\"AZURE_STORAGE_RESOURCE_GROUP\", \"test-storage-rg\")\n        monkeypatch.setenv(\"AZURE_SUBSCRIPTION_ID\", \"test-storage-subid\")\n        monkeypatch.setenv(\"ENABLE_LANGUAGE_PICKER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_INPUT_BROWSER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_OUTPUT_AZURE\", \"true\")\n        monkeypatch.setenv(\"AZURE_SEARCH_INDEX\", \"test-search-index\")",
+        "peekOfCode": "def mock_knowledgebase_env(monkeypatch, request):\n    with mock.patch.dict(os.environ, clear=True):\n        monkeypatch.setenv(\"AZURE_STORAGE_ACCOUNT\", \"test-storage-account\")\n        monkeypatch.setenv(\"AZURE_STORAGE_CONTAINER\", \"test-storage-container\")\n        monkeypatch.setenv(\"AZURE_STORAGE_RESOURCE_GROUP\", \"test-storage-rg\")\n        monkeypatch.setenv(\"AZURE_SUBSCRIPTION_ID\", \"test-storage-subid\")\n        monkeypatch.setenv(\"ENABLE_LANGUAGE_PICKER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_INPUT_BROWSER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_OUTPUT_AZURE\", \"true\")\n        monkeypatch.setenv(\"AZURE_SEARCH_INDEX\", \"test-search-index\")",
         "detail": "tests.conftest",
         "documentation": {}
     },
     {
-        "label": "mock_agent_auth_env",
+        "label": "mock_knowledgebase_auth_env",
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def mock_agent_auth_env(monkeypatch, request):\n    with mock.patch.dict(os.environ, clear=True):\n        monkeypatch.setenv(\"AZURE_STORAGE_ACCOUNT\", \"test-storage-account\")\n        monkeypatch.setenv(\"AZURE_STORAGE_CONTAINER\", \"test-storage-container\")\n        monkeypatch.setenv(\"AZURE_STORAGE_RESOURCE_GROUP\", \"test-storage-rg\")\n        monkeypatch.setenv(\"AZURE_SUBSCRIPTION_ID\", \"test-storage-subid\")\n        monkeypatch.setenv(\"ENABLE_LANGUAGE_PICKER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_INPUT_BROWSER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_OUTPUT_AZURE\", \"true\")\n        monkeypatch.setenv(\"AZURE_SEARCH_INDEX\", \"test-search-index\")",
+        "peekOfCode": "def mock_knowledgebase_auth_env(monkeypatch, request):\n    with mock.patch.dict(os.environ, clear=True):\n        monkeypatch.setenv(\"AZURE_STORAGE_ACCOUNT\", \"test-storage-account\")\n        monkeypatch.setenv(\"AZURE_STORAGE_CONTAINER\", \"test-storage-container\")\n        monkeypatch.setenv(\"AZURE_STORAGE_RESOURCE_GROUP\", \"test-storage-rg\")\n        monkeypatch.setenv(\"AZURE_SUBSCRIPTION_ID\", \"test-storage-subid\")\n        monkeypatch.setenv(\"ENABLE_LANGUAGE_PICKER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_INPUT_BROWSER\", \"true\")\n        monkeypatch.setenv(\"USE_SPEECH_OUTPUT_AZURE\", \"true\")\n        monkeypatch.setenv(\"AZURE_SEARCH_INDEX\", \"test-search-index\")",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -15200,7 +15722,7 @@
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def chat_approach():\n    return ChatReadRetrieveReadApproach(\n        search_client=SearchClient(endpoint=\"\", index_name=\"\", credential=AzureKeyCredential(\"\")),\n        search_index_name=None,\n        agent_model=None,\n        agent_deployment=None,\n        agent_client=None,\n        openai_client=None,\n        chatgpt_model=\"gpt-4.1-mini\",\n        chatgpt_deployment=\"chat\",",
+        "peekOfCode": "def chat_approach():\n    return ChatReadRetrieveReadApproach(\n        search_client=SearchClient(endpoint=\"\", index_name=\"\", credential=AzureKeyCredential(\"\")),\n        search_index_name=None,\n        knowledgebase_model=None,\n        knowledgebase_deployment=None,\n        knowledgebase_client=None,\n        openai_client=None,\n        chatgpt_model=\"gpt-4.1-mini\",\n        chatgpt_deployment=\"chat\",",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -15209,16 +15731,16 @@
         "kind": 5,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "MockSearchIndex = SearchIndex(\n    name=\"test\",\n    fields=[\n        SearchField(name=\"oids\", type=\"Collection(Edm.String)\"),\n        SearchField(name=\"groups\", type=\"Collection(Edm.String)\"),\n    ],\n)\nMockAgent = KnowledgeAgent(\n    name=\"test\",\n    models=[],",
+        "peekOfCode": "MockSearchIndex = SearchIndex(\n    name=\"test\",\n    fields=[\n        SearchField(name=\"oids\", type=\"Collection(Edm.String)\"),\n        SearchField(name=\"groups\", type=\"Collection(Edm.String)\"),\n    ],\n)\nMockKnowledgeBase = KnowledgeBase(\n    name=\"test\",\n    models=[],",
         "detail": "tests.conftest",
         "documentation": {}
     },
     {
-        "label": "MockAgent",
+        "label": "MockKnowledgeBase",
         "kind": 5,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "MockAgent = KnowledgeAgent(\n    name=\"test\",\n    models=[],\n    knowledge_sources=[\n        SearchIndexKnowledgeSource(\n            name=\"test\",\n            description=\"The default index for searching\",\n            search_index_parameters=SearchIndexKnowledgeSourceParameters(\n                search_index_name=\"test\", include_reference_source_data=True\n            ),",
+        "peekOfCode": "MockKnowledgeBase = KnowledgeBase(\n    name=\"test\",\n    models=[],\n    knowledge_sources=[\n        SearchIndexKnowledgeSource(\n            name=\"test\",\n            description=\"The default index for searching\",\n            search_index_parameters=SearchIndexKnowledgeSourceParameters(\n                search_index_name=\"test\", include_reference_source_data=True\n            ),",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -15277,20 +15799,20 @@
         "documentation": {}
     },
     {
-        "label": "agent_envs",
+        "label": "knowledgebase_envs",
         "kind": 5,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "agent_envs = [\n    {\n        \"OPENAI_HOST\": \"azure\",\n        \"AZURE_OPENAI_SERVICE\": \"test-openai-service\",\n        \"AZURE_OPENAI_CHATGPT_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_CHATGPT_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_EMB_DEPLOYMENT\": \"test-ada\",\n        \"AZURE_OPENAI_SEARCHAGENT_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_SEARCHAGENT_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"USE_AGENTIC_RETRIEVAL\": \"true\",",
+        "peekOfCode": "knowledgebase_envs = [\n    {\n        \"OPENAI_HOST\": \"azure\",\n        \"AZURE_OPENAI_SERVICE\": \"test-openai-service\",\n        \"AZURE_OPENAI_CHATGPT_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_CHATGPT_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_EMB_DEPLOYMENT\": \"test-ada\",\n        \"AZURE_OPENAI_KNOWLEDGEBASE_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_KNOWLEDGEBASE_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"USE_AGENTIC_KNOWLEDGEBASE\": \"true\",",
         "detail": "tests.conftest",
         "documentation": {}
     },
     {
-        "label": "agent_auth_envs",
+        "label": "knowledgebase_auth_envs",
         "kind": 5,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "agent_auth_envs = [\n    {\n        \"OPENAI_HOST\": \"azure\",\n        \"AZURE_OPENAI_SERVICE\": \"test-openai-service\",\n        \"AZURE_OPENAI_CHATGPT_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_CHATGPT_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_EMB_DEPLOYMENT\": \"test-ada\",\n        \"AZURE_OPENAI_SEARCHAGENT_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_SEARCHAGENT_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"USE_AGENTIC_RETRIEVAL\": \"true\",",
+        "peekOfCode": "knowledgebase_auth_envs = [\n    {\n        \"OPENAI_HOST\": \"azure\",\n        \"AZURE_OPENAI_SERVICE\": \"test-openai-service\",\n        \"AZURE_OPENAI_CHATGPT_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_CHATGPT_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_EMB_DEPLOYMENT\": \"test-ada\",\n        \"AZURE_OPENAI_KNOWLEDGEBASE_MODEL\": \"gpt-4.1-mini\",\n        \"AZURE_OPENAI_KNOWLEDGEBASE_DEPLOYMENT\": \"gpt-4.1-mini\",\n        \"USE_AGENTIC_KNOWLEDGEBASE\": \"true\",",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -15426,6 +15948,15 @@
         "importPath": "tests.e2e",
         "description": "tests.e2e",
         "peekOfCode": "def test_upload_disabled(page: Page, live_server_url: str):\n    def handle_auth_setup(route: Route):\n        with open(\"tests/snapshots/test_authenticationhelper/test_auth_setup/result.json\") as f:\n            auth_setup = json.load(f)\n            route.fulfill(body=json.dumps(auth_setup), status=200)\n    page.route(\"*/**/auth_setup\", handle_auth_setup)\n    def handle_config(route: Route):\n        route.fulfill(\n            body=json.dumps(\n                {",
+        "detail": "tests.e2e",
+        "documentation": {}
+    },
+    {
+        "label": "test_agentic_retrieval_effort_minimal_disables_web",
+        "kind": 2,
+        "importPath": "tests.e2e",
+        "description": "tests.e2e",
+        "peekOfCode": "def test_agentic_retrieval_effort_minimal_disables_web(page: Page, live_server_url: str):\n    \"\"\"Test that selecting 'Minimal' effort deselects and disables the web source checkbox.\"\"\"\n    # Set up a mock route to the /chat endpoint\n    def handle(route: Route):\n        try:\n            post_data = route.request.post_data_json\n            if post_data and \"context\" in post_data and \"overrides\" in post_data[\"context\"]:\n                overrides = post_data[\"context\"][\"overrides\"]\n                assert overrides[\"temperature\"] == 0.5\n                assert overrides[\"seed\"] == 123",
         "detail": "tests.e2e",
         "documentation": {}
     },
@@ -15619,11 +16150,38 @@
         "documentation": {}
     },
     {
+        "label": "create_mock_retrieve",
+        "kind": 2,
+        "importPath": "tests.mocks",
+        "description": "tests.mocks",
+        "peekOfCode": "def create_mock_retrieve(response_type=\"default\"):\n    \"\"\"Create a mock_retrieve function that returns different response types.\n    Supported response_type values:\n      - \"default\": single reference response\n      - \"sorting\": multiple refs to test ordering / interleaving\n      - \"top_limit\": many refs to test early breaking via top limit\n      - \"web\": includes web knowledge source\n      - \"sharepoint\": includes SharePoint knowledge source\n      - \"auto\": checks os.environ for USE_WEB_SOURCE and USE_SHAREPOINT_SOURCE\n    \"\"\"",
+        "detail": "tests.mocks",
+        "documentation": {}
+    },
+    {
         "label": "mock_retrieval_response",
         "kind": 2,
         "importPath": "tests.mocks",
         "description": "tests.mocks",
-        "peekOfCode": "def mock_retrieval_response():\n    return KnowledgeAgentRetrievalResponse(\n        response=[\n            KnowledgeAgentMessage(\n                role=\"assistant\",\n                content=[\n                    KnowledgeAgentMessageTextContent(\n                        text=r'[{\"ref_id\":0,\"title\":\"Benefit_Options-2.pdf\",\"content\":\"There is a whistleblower policy.\"}]'\n                    )\n                ],",
+        "peekOfCode": "def mock_retrieval_response():\n    return KnowledgeBaseRetrievalResponse(\n        activity=[\n            KnowledgeBaseModelQueryPlanningActivityRecord(id=0, input_tokens=10, output_tokens=20, elapsed_ms=200),\n            KnowledgeBaseSearchIndexActivityRecord(\n                id=1,\n                knowledge_source_name=\"index\",\n                search_index_arguments=KnowledgeBaseSearchIndexActivityArguments(search=\"whistleblower query\"),\n                count=10,\n                elapsed_ms=50,",
+        "detail": "tests.mocks",
+        "documentation": {}
+    },
+    {
+        "label": "mock_retrieval_response_with_web",
+        "kind": 2,
+        "importPath": "tests.mocks",
+        "description": "tests.mocks",
+        "peekOfCode": "def mock_retrieval_response_with_web():\n    return KnowledgeBaseRetrievalResponse(\n        response=[\n            KnowledgeBaseMessage(\n                role=\"assistant\",\n                content=[\n                    KnowledgeBaseMessageTextContent(\n                        text=\"There is a whistleblower policy. [ref_id:0] You can also visit [ref_id:1] for more information.\"\n                    )\n                ],",
+        "detail": "tests.mocks",
+        "documentation": {}
+    },
+    {
+        "label": "mock_retrieval_response_with_sharepoint",
+        "kind": 2,
+        "importPath": "tests.mocks",
+        "description": "tests.mocks",
+        "peekOfCode": "def mock_retrieval_response_with_sharepoint():\n    \"\"\"Mock response with SharePoint knowledge source\"\"\"\n    return KnowledgeBaseRetrievalResponse(\n        activity=[\n            KnowledgeBaseModelQueryPlanningActivityRecord(id=0, input_tokens=10, output_tokens=20, elapsed_ms=200),\n            KnowledgeBaseSearchIndexActivityRecord(\n                id=1,\n                knowledge_source_name=\"index\",\n                search_index_arguments=KnowledgeBaseSearchIndexActivityArguments(search=\"whistleblower query\"),\n                count=10,",
         "detail": "tests.mocks",
         "documentation": {}
     },
@@ -15632,7 +16190,7 @@
         "kind": 2,
         "importPath": "tests.mocks",
         "description": "tests.mocks",
-        "peekOfCode": "def mock_retrieval_response_with_sorting():\n    \"\"\"Mock response with multiple references for testing sorting\"\"\"\n    return KnowledgeAgentRetrievalResponse(\n        response=[\n            KnowledgeAgentMessage(\n                role=\"assistant\",\n                content=[KnowledgeAgentMessageTextContent(text=\"Test response\")],\n            )\n        ],\n        activity=[",
+        "peekOfCode": "def mock_retrieval_response_with_sorting():\n    \"\"\"Mock response with multiple references for testing sorting\"\"\"\n    return KnowledgeBaseRetrievalResponse(\n        activity=[\n            KnowledgeBaseSearchIndexActivityRecord(\n                id=1,\n                knowledge_source_name=\"index\",\n                search_index_arguments=KnowledgeBaseSearchIndexActivityArguments(search=\"first query\"),\n                count=10,\n                elapsed_ms=50,",
         "detail": "tests.mocks",
         "documentation": {}
     },
@@ -15641,7 +16199,7 @@
         "kind": 2,
         "importPath": "tests.mocks",
         "description": "tests.mocks",
-        "peekOfCode": "def mock_retrieval_response_with_top_limit():\n    \"\"\"Mock response with many references to test top limit during document building\"\"\"\n    references = []\n    for i in range(15):  # More than any reasonable top limit\n        references.append(\n            KnowledgeAgentSearchIndexReference(\n                id=str(i),\n                activity_source=1,\n                doc_key=f\"doc{i}\",\n                source_data={\"id\": f\"doc{i}\", \"content\": f\"Content {i}\", \"sourcepage\": f\"page{i}.pdf\"},",
+        "peekOfCode": "def mock_retrieval_response_with_top_limit():\n    \"\"\"Mock response with many references to test top limit during document building\"\"\"\n    references = []\n    for i in range(15):  # More than any reasonable top limit\n        references.append(\n            KnowledgeBaseSearchIndexReference(\n                id=str(i),\n                activity_source=1,\n                doc_key=f\"doc{i}\",\n                source_data={\"id\": f\"doc{i}\", \"content\": f\"Content {i}\", \"sourcepage\": f\"page{i}.pdf\"},",
         "detail": "tests.mocks",
         "documentation": {}
     },
@@ -15776,7 +16334,25 @@
         "kind": 2,
         "importPath": "tests.test_app",
         "description": "tests.test_app",
-        "peekOfCode": "def messages_contains_text(messages, text):\n    for message in messages:\n        if text in message[\"content\"]:\n            return True\n    return False\n@pytest.mark.asyncio\nasync def test_missing_env_vars():\n    with mock.patch.dict(os.environ, clear=True):\n        quart_app = app.create_app()\n        with pytest.raises(quart.testing.app.LifespanError, match=\"Error during startup 'AZURE_STORAGE_ACCOUNT'\"):",
+        "peekOfCode": "def messages_contains_text(messages, text):\n    for message in messages:\n        if text in message[\"content\"]:\n            return True\n    return False\ndef pop_citation_activity_details(result: dict[str, Any] | None):  # type: ignore[name-defined]\n    if result is None:\n        return None\n    context = result.get(\"context\") if isinstance(result, dict) else None\n    if not isinstance(context, dict):",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "pop_citation_activity_details",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def pop_citation_activity_details(result: dict[str, Any] | None):  # type: ignore[name-defined]\n    if result is None:\n        return None\n    context = result.get(\"context\") if isinstance(result, dict) else None\n    if not isinstance(context, dict):\n        return None\n    data_points = context.get(\"data_points\")\n    if not isinstance(data_points, dict):\n        return None\n    return data_points.pop(\"citation_activity_details\", None)",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_json_encoder_drops_optional_fields",
+        "kind": 2,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "def test_json_encoder_drops_optional_fields():\n    data_points = app.DataPoints(\n        text=[\"One\"], citations=[\"a\"], external_results_metadata=None, citation_activity_details=None\n    )\n    encoded = app.JSONEncoder().encode(data_points)\n    assert \"citation_activity_details\" not in encoded\n    assert '\"text\": [\"One\"]' in encoded\n@pytest.mark.asyncio\nasync def test_auth_setup_returns_payload(client):\n    response = await client.get(\"/auth_setup\")",
         "detail": "tests.test_app",
         "documentation": {}
     },
@@ -16010,7 +16586,7 @@
         "kind": 2,
         "importPath": "tests.test_blob_manager",
         "description": "tests.test_blob_manager",
-        "peekOfCode": "def adls_blob_manager(monkeypatch):\n    return AdlsBlobManager(\n        endpoint=\"https://test-storage-account.dfs.core.windows.net\",\n        container=\"test-storage-container\",\n        credential=MockAzureCredential(),\n    )\n@pytest.mark.asyncio\n@pytest.mark.skipif(sys.version_info.minor < 10, reason=\"requires Python 3.10 or higher (due to NamedTemporaryFile)\")\nasync def test_upload_and_remove(monkeypatch, mock_env, mock_blob_container_client_exists, blob_manager):\n    with NamedTemporaryFile(suffix=\".pdf\") as temp_file:",
+        "peekOfCode": "def adls_blob_manager(monkeypatch):\n    return AdlsBlobManager(\n        endpoint=\"https://test-storage-account.dfs.core.windows.net\",\n        container=\"test-storage-container\",\n        credential=MockAzureCredential(),\n    )\n@pytest.mark.asyncio\n@pytest.mark.skipif(sys.version_info.minor < 10, reason=\"requires Python 3.10 or higher (due to NamedTemporaryFile)\")\n@pytest.mark.skipif(WINDOWS, reason=\"NamedTemporaryFile keeps handles open on Windows\")\nasync def test_upload_and_remove(monkeypatch, mock_env, mock_blob_container_client_exists, blob_manager):",
         "detail": "tests.test_blob_manager",
         "documentation": {}
     },
@@ -16042,6 +16618,15 @@
         "documentation": {}
     },
     {
+        "label": "WINDOWS",
+        "kind": 5,
+        "importPath": "tests.test_blob_manager",
+        "description": "tests.test_blob_manager",
+        "peekOfCode": "WINDOWS = sys.platform.startswith(\"win\")\n@pytest.fixture\ndef blob_manager():\n    return BlobManager(\n        endpoint=f\"https://{os.environ['AZURE_STORAGE_ACCOUNT']}.blob.core.windows.net\",\n        credential=MockAzureCredential(),\n        container=os.environ[\"AZURE_STORAGE_CONTAINER\"],\n        account=os.environ[\"AZURE_STORAGE_ACCOUNT\"],\n        resource_group=os.environ[\"AZURE_STORAGE_RESOURCE_GROUP\"],\n        subscription_id=os.environ[\"AZURE_SUBSCRIPTION_ID\"],",
+        "detail": "tests.test_blob_manager",
+        "documentation": {}
+    },
+    {
         "label": "test_get_search_query",
         "kind": 2,
         "importPath": "tests.test_chatapproach",
@@ -16055,7 +16640,25 @@
         "kind": 2,
         "importPath": "tests.test_chatapproach",
         "description": "tests.test_chatapproach",
-        "peekOfCode": "def test_get_search_query_returns_default(chat_approach):\n    payload = '{\"id\":\"chatcmpl-81JkxYqYppUkPtOAia40gki2vJ9QM\",\"object\":\"chat.completion\",\"created\":1695324963,\"model\":\"gpt-4.1-mini\",\"prompt_filter_results\":[{\"prompt_index\":0,\"content_filter_results\":{\"hate\":{\"filtered\":false,\"severity\":\"safe\"},\"self_harm\":{\"filtered\":false,\"severity\":\"safe\"},\"sexual\":{\"filtered\":false,\"severity\":\"safe\"},\"violence\":{\"filtered\":false,\"severity\":\"safe\"}}}],\"choices\":[{\"index\":0,\"finish_reason\":\"function_call\",\"message\":{\"content\":\"\",\"role\":\"assistant\"},\"content_filter_results\":{}}],\"usage\":{\"completion_tokens\":19,\"prompt_tokens\":425,\"total_tokens\":444}}'\n    default_query = \"hello\"\n    chatcompletions = ChatCompletion.model_validate(json.loads(payload), strict=False)\n    query = chat_approach.get_search_query(chatcompletions, default_query)\n    assert query == default_query\ndef test_extract_followup_questions(chat_approach):\n    content = \"Here is answer to your question.<<What is the dress code?>>\"\n    pre_content, followup_questions = chat_approach.extract_followup_questions(content)\n    assert pre_content == \"Here is answer to your question.\"",
+        "peekOfCode": "def test_get_search_query_returns_default(chat_approach):\n    payload = '{\"id\":\"chatcmpl-81JkxYqYppUkPtOAia40gki2vJ9QM\",\"object\":\"chat.completion\",\"created\":1695324963,\"model\":\"gpt-4.1-mini\",\"prompt_filter_results\":[{\"prompt_index\":0,\"content_filter_results\":{\"hate\":{\"filtered\":false,\"severity\":\"safe\"},\"self_harm\":{\"filtered\":false,\"severity\":\"safe\"},\"sexual\":{\"filtered\":false,\"severity\":\"safe\"},\"violence\":{\"filtered\":false,\"severity\":\"safe\"}}}],\"choices\":[{\"index\":0,\"finish_reason\":\"function_call\",\"message\":{\"content\":\"\",\"role\":\"assistant\"},\"content_filter_results\":{}}],\"usage\":{\"completion_tokens\":19,\"prompt_tokens\":425,\"total_tokens\":444}}'\n    default_query = \"hello\"\n    chatcompletions = ChatCompletion.model_validate(json.loads(payload), strict=False)\n    query = chat_approach.get_search_query(chatcompletions, default_query)\n    assert query == default_query\ndef test_get_search_query_returns_default_on_error(chat_approach, monkeypatch):\n    def explode(*_args, **_kwargs):\n        raise RuntimeError(\"boom\")\n    monkeypatch.setattr(chat_approach, \"extract_rewritten_query\", explode)",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_search_query_returns_default_on_error",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_get_search_query_returns_default_on_error(chat_approach, monkeypatch):\n    def explode(*_args, **_kwargs):\n        raise RuntimeError(\"boom\")\n    monkeypatch.setattr(chat_approach, \"extract_rewritten_query\", explode)\n    payload = '{\"id\":\"chatcmpl-1\",\"object\":\"chat.completion\",\"created\":0,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"finish_reason\":\"stop\",\"message\":{\"role\":\"assistant\",\"content\":\"anything\"}}]}'\n    chatcompletions = ChatCompletion.model_validate(json.loads(payload), strict=False)\n    assert chat_approach.get_search_query(chatcompletions, \"default\") == \"default\"\ndef test_extract_rewritten_query_invalid_json(chat_approach):\n    payload = {\n        \"id\": \"chatcmpl-2\",",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_rewritten_query_invalid_json",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_extract_rewritten_query_invalid_json(chat_approach):\n    payload = {\n        \"id\": \"chatcmpl-2\",\n        \"object\": \"chat.completion\",\n        \"created\": 0,\n        \"model\": \"gpt-4.1-mini\",\n        \"choices\": [\n            {\n                \"index\": 0,\n                \"finish_reason\": \"function_call\",",
         "detail": "tests.test_chatapproach",
         "documentation": {}
     },
@@ -16092,6 +16695,51 @@
         "importPath": "tests.test_chatapproach",
         "description": "tests.test_chatapproach",
         "peekOfCode": "def test_extract_followup_questions_no_pre_content(chat_approach):\n    content = \"<<What is the dress code?>>\"\n    pre_content, followup_questions = chat_approach.extract_followup_questions(content)\n    assert pre_content == \"\"\n    assert followup_questions == [\"What is the dress code?\"]\n@pytest.mark.asyncio\n@pytest.mark.parametrize(\n    \"minimum_search_score,minimum_reranker_score,expected_result_count\",\n    [\n        (0, 0, 1),",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_replace_all_ref_ids_unknown_fallback",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_replace_all_ref_ids_unknown_fallback(chat_approach):\n    \"\"\"Test that unknown ref_ids remain unchanged (fallback case).\"\"\"\n    answer = \"This is an answer with [ref_id:999] that doesn't match any document or web result.\"\n    documents = [\n        Document(\n            id=\"doc1\",\n            ref_id=\"1\",\n            content=\"Some content\",\n            sourcepage=\"page1.pdf\",\n            sourcefile=\"page1.pdf\",",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_replace_all_ref_ids_mixed",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_replace_all_ref_ids_mixed(chat_approach):\n    \"\"\"Test that ref_ids are replaced correctly for web, documents, and unknown refs.\"\"\"\n    answer = \"Check [ref_id:1] and [ref_id:5] and also [ref_id:999].\"\n    documents = [\n        Document(\n            id=\"doc1\",\n            ref_id=\"1\",\n            content=\"Some content\",\n            sourcepage=\"page1.pdf\",\n            sourcefile=\"page1.pdf\",",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_replace_all_ref_ids_sharepoint_priority",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_replace_all_ref_ids_sharepoint_priority(chat_approach):\n    \"\"\"SharePoint URLs should be used when present.\"\"\"\n    answer = \"See [ref_id:7] for the site link.\"\n    documents = [\n        Document(id=\"doc1\", ref_id=\"7\", sourcepage=\"page1.pdf\", sourcefile=\"page1.pdf\"),\n    ]\n    sharepoint_results = [\n        SharePointResult(id=\"7\", web_url=\"https://sharepoint.example.com/documents/7\"),\n    ]\n    result = chat_approach.replace_all_ref_ids(answer, documents, [], sharepoint_results)",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_knowledgebase_client_priorities",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_select_knowledgebase_client_priorities(chat_approach):\n    primary = object()\n    web = object()\n    sharepoint = object()\n    both = object()\n    chat_approach.knowledgebase_client = primary\n    chat_approach.knowledgebase_client_with_web = web\n    chat_approach.knowledgebase_client_with_sharepoint = sharepoint\n    chat_approach.knowledgebase_client_with_web_and_sharepoint = both\n    selected, uses_web, uses_sp = chat_approach._select_knowledgebase_client(True, True)",
+        "detail": "tests.test_chatapproach",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_knowledgebase_client_requires_configuration",
+        "kind": 2,
+        "importPath": "tests.test_chatapproach",
+        "description": "tests.test_chatapproach",
+        "peekOfCode": "def test_select_knowledgebase_client_requires_configuration(chat_approach):\n    chat_approach.knowledgebase_client = None\n    chat_approach.knowledgebase_client_with_web = None\n    chat_approach.knowledgebase_client_with_sharepoint = None\n    with pytest.raises(ValueError, match=\"Agentic retrieval requested but no knowledge base is configured\"):\n        chat_approach._select_knowledgebase_client(True, False)\n@pytest.mark.asyncio\nasync def test_run_with_streaming_handles_non_stream_response(chat_approach, monkeypatch):\n    extra_info = ExtraInfo(\n        data_points=DataPoints(text=[], images=[], citations=[]),",
         "detail": "tests.test_chatapproach",
         "documentation": {}
     },
@@ -16964,7 +17612,7 @@
         "kind": 2,
         "importPath": "tests.test_servicesetup",
         "description": "tests.test_servicesetup",
-        "peekOfCode": "def test_setup_search_info_agentic_retrieval_without_model():\n    \"\"\"Test that setup_search_info raises ValueError when using agentic retrieval without search agent model.\"\"\"\n    with pytest.raises(ValueError, match=\"SearchAgent model must be specified\"):\n        setup_search_info(\n            azure_credential=MockAzureCredential(),\n            search_service=\"mysearch\",\n            index_name=\"myindex\",\n            use_agentic_retrieval=True,\n            azure_openai_searchagent_model=None,\n        )",
+        "peekOfCode": "def test_setup_search_info_agentic_retrieval_without_model():\n    \"\"\"Test that setup_search_info raises ValueError when using agentic retrieval without search agent model.\"\"\"\n    with pytest.raises(ValueError, match=\"Azure OpenAI deployment for Knowledge Base must be specified\"):\n        setup_search_info(\n            azure_credential=MockAzureCredential(),\n            search_service=\"mysearch\",\n            index_name=\"myindex\",\n            use_agentic_knowledgebase=True,\n            azure_openai_knowledgebase_deployment=None,\n        )",
         "detail": "tests.test_servicesetup",
         "documentation": {}
     },
