@@ -86,6 +86,9 @@
     "defaultReasoningEffort": {
       "value": "${AZURE_OPENAI_REASONING_EFFORT=medium}"
     },
+    "defaultRetrievalReasoningEffort": {
+      "value": "${AZURE_SEARCH_KNOWLEDGEBASE_RETRIEVAL_REASONING_EFFORT=low}"
+    },
     "storageAccountName": {
       "value": "${AZURE_STORAGE_ACCOUNT}"
     },
@@ -161,11 +164,11 @@
     "searchAgentDeploymentName": {
       "value": "searchagent" 
     },
-    "searchAgentDeploymentSkuName": {
-      "value": "${AZURE_OPENAI_SEARCHAGENT_DEPLOYMENT_SKU}"
+    "knowledgeBaseDeploymentSkuName": {
+      "value": "${AZURE_OPENAI_KNOWLEDGEBASE_DEPLOYMENT_SKU}"
     },
-    "searchAgentDeploymentCapacity": {
-      "value": "${AZURE_OPENAI_SEARCHAGENT_DEPLOYMENT_CAPACITY}"
+    "knowledgeBaseDeploymentCapacity": {
+      "value": "${AZURE_OPENAI_KNOWLEDGEBASE_DEPLOYMENT_CAPACITY}"
     },
     "openAiHost": {
       "value": "${OPENAI_HOST=azure}"
@@ -349,6 +352,12 @@
     },
     "ragSendImageSources": {
       "value": "${RAG_SEND_IMAGE_SOURCES=true}"
+    },
+    "useWebSource": {
+      "value": "${USE_WEB_SOURCE=false}"
+    },
+    "useSharePointSource": {
+      "value": "${USE_SHAREPOINT_SOURCE=false}"
     }
   }
 }
