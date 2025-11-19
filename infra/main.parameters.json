@@ -33,7 +33,7 @@
       "value": "${AZURE_VISION_RESOURCE_GROUP}"
     },
     "visionResourceGroupLocation": {
-      "value": "${AZURE_VISION_LOCATION=eastus}"
+      "value": "${AZURE_VISION_LOCATION=swedencentral}"
     },
     "contentUnderstandingServiceName": {
       "value": "${AZURE_CONTENT_UNDERSTANDING_SERVICE}"
@@ -54,7 +54,7 @@
       "value": "${AZURE_DOCUMENTINTELLIGENCE_LOCATION}"
     },
     "searchIndexName": {
-      "value": "${AZURE_SEARCH_INDEX=gptkbindex}"
+      "value": "${AZURE_SEARCH_INDEX=cloudindex}"
     },
     "searchServiceName": {
       "value": "${AZURE_SEARCH_SERVICE}"
@@ -78,7 +78,7 @@
       "value": "${AZURE_SEARCH_SEMANTIC_RANKER=free}"
     },
     "searchServiceQueryRewriting": {
-      "value": "${AZURE_SEARCH_QUERY_REWRITING=false}"
+      "value": "${AZURE_SEARCH_QUERY_REWRITING=false}" 
     },
     "searchFieldNameEmbedding": {
       "value": "${AZURE_SEARCH_FIELD_NAME_EMBEDDING=embedding3}"
@@ -105,37 +105,37 @@
       "value": "${AZURE_APP_SERVICE}"
     },
     "chatGptModelName": {
-      "value": "${AZURE_OPENAI_CHATGPT_MODEL}"
+      "value": "gpt-5.1-chat"
     },
     "chatGptDeploymentName": {
-      "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT}"
+      "value": "gpt-5.1-chat"
     },
     "chatGptDeploymentVersion": {
-      "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT_VERSION}"
+      "value": "2025-11-13"
     },
     "chatGptDeploymentSkuName": {
-      "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT_SKU}"
+      "value": "GlobalStandard" 
     },
     "chatGptDeploymentCapacity": {
-      "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT_CAPACITY}"
+      "value": "50" 
     },
     "embeddingModelName": {
-      "value": "${AZURE_OPENAI_EMB_MODEL_NAME}"
+      "value": "text-embedding-3-large" 
     },
     "embeddingDeploymentName": {
       "value": "${AZURE_OPENAI_EMB_DEPLOYMENT}"
     },
     "embeddingDeploymentVersion": {
-      "value": "${AZURE_OPENAI_EMB_DEPLOYMENT_VERSION}"
+      "value": "1" 
     },
     "embeddingDeploymentSkuName": {
-      "value": "${AZURE_OPENAI_EMB_DEPLOYMENT_SKU}"
+      "value": "GlobalStandard" 
     },
     "embeddingDeploymentCapacity": {
       "value": "${AZURE_OPENAI_EMB_DEPLOYMENT_CAPACITY}"
     },
     "embeddingDimensions": {
-      "value": "${AZURE_OPENAI_EMB_DIMENSIONS}"
+      "value": "3072" 
     },
     "evalModelName": {
       "value": "${AZURE_OPENAI_EVAL_MODEL}"
@@ -153,13 +153,13 @@
       "value": "${AZURE_OPENAI_EVAL_DEPLOYMENT_CAPACITY}"
     },
     "searchAgentModelName": {
-      "value": "${AZURE_OPENAI_SEARCHAGENT_MODEL}"
+      "value": "gpt-4.1-mini" 
     },
     "searchAgentModelVersion": {
-      "value": "${AZURE_OPENAI_SEARCHAGENT_MODEL_VERSION}"
+      "value": "2025-04-14" 
     },
     "searchAgentDeploymentName": {
-      "value": "${AZURE_OPENAI_SEARCHAGENT_DEPLOYMENT}"
+      "value": "searchagent" 
     },
     "searchAgentDeploymentSkuName": {
       "value": "${AZURE_OPENAI_SEARCHAGENT_DEPLOYMENT_SKU}"
@@ -201,31 +201,31 @@
       "value": "${USE_VECTORS=true}"
     },
     "useMultimodal": {
-      "value": "${USE_MULTIMODAL=false}"
+      "value": "${USE_MULTIMODAL=true}"
     },
     "useEval": {
       "value": "${USE_EVAL=false}"
     },
     "useCloudIngestion": {
-      "value": "${USE_CLOUD_INGESTION=false}"
+      "value": "${USE_CLOUD_INGESTION=true}" 
     },
     "enableLanguagePicker": {
-      "value": "${ENABLE_LANGUAGE_PICKER=false}"
+      "value": "${ENABLE_LANGUAGE_PICKER=true}" 
     },
     "useSpeechInputBrowser": {
-      "value": "${USE_SPEECH_INPUT_BROWSER=false}"
+      "value": "${USE_SPEECH_INPUT_BROWSER=true}" 
     },
     "useSpeechOutputBrowser": {
-      "value": "${USE_SPEECH_OUTPUT_BROWSER=false}"
+      "value": "${USE_SPEECH_OUTPUT_BROWSER=true}" 
     },
     "useSpeechOutputAzure": {
-      "value": "${USE_SPEECH_OUTPUT_AZURE=false}"
+      "value": "${USE_SPEECH_OUTPUT_AZURE=true}" 
     },
     "speechServiceName": {
       "value": "${AZURE_SPEECH_SERVICE}"
     },
     "speechServiceSkuName": {
-      "value": "${AZURE_SPEECH_SERVICE_SKU=S0}"
+      "value": "${AZURE_SPEECH_SERVICE_SKU=F0}"
     },
     "speechServiceResourceGroupName": {
       "value": "${AZURE_SPEECH_SERVICE_RESOURCE_GROUP}"
@@ -237,10 +237,10 @@
       "value": "${USE_CHAT_HISTORY_BROWSER=false}"
     },
     "useChatHistoryCosmos": {
-      "value": "${USE_CHAT_HISTORY_COSMOS=false}"
+      "value": "${USE_CHAT_HISTORY_COSMOS=true}" 
     },
     "cosmosDbSkuName": {
-      "value": "${AZURE_COSMOSDB_SKU=serverless}"
+      "value": "${AZURE_COSMOSDB_SKU=serverless}"  
     },
     "cosmodDbResourceGroupName": {
       "value": "${AZURE_COSMOSDB_RESOURCE_GROUP}"
@@ -255,10 +255,10 @@
       "value": "${AZURE_COSMOSDB_THROUGHPUT}"
     },
     "speechServiceVoice": {
-      "value": "${AZURE_SPEECH_SERVICE_VOICE}"
+      "value": "en-GB-SoniaNeural" 
     },
     "useAuthentication": {
-      "value": "${AZURE_USE_AUTHENTICATION=false}"
+      "value": "${AZURE_USE_AUTHENTICATION=true}" 
     },
     "enforceAccessControl": {
       "value": "${AZURE_ENFORCE_ACCESS_CONTROL=false}"
@@ -294,10 +294,10 @@
       "value": "${AZURE_PUBLIC_NETWORK_ACCESS=Enabled}"
     },
     "usePrivateEndpoint": {
-      "value": "${AZURE_USE_PRIVATE_ENDPOINT=false}"
+      "value": "${AZURE_USE_PRIVATE_ENDPOINT=false}" 
     },
     "useVpnGateway": {
-      "value": "${AZURE_USE_VPN_GATEWAY=false}"
+      "value": "${AZURE_USE_VPN_GATEWAY=false}" 
     },
     "bypass": {
       "value": "${AZURE_NETWORK_BYPASS=AzureServices}"
@@ -321,7 +321,7 @@
       "value": "${TF_BUILD}"
     },
     "deploymentTarget": {
-      "value": "${DEPLOYMENT_TARGET=containerapps}"
+      "value": "${DEPLOYMENT_TARGET=appservice}" 
     },
     "webAppExists": {
       "value": "${SERVICE_WEB_RESOURCE_EXISTS=false}"
@@ -333,10 +333,10 @@
       "value": "${USE_MEDIA_DESCRIBER_AZURE_CU=false}"
     },
     "useAiProject": {
-      "value": "${USE_AI_PROJECT=false}"
+      "value": "${USE_AI_PROJECT=true}"
     },
     "useAgenticRetrieval": {
-      "value": "${USE_AGENTIC_RETRIEVAL=false}"
+      "value": "${USE_AGENTIC_RETRIEVAL=true}"
     },
     "ragSearchTextEmbeddings": {
       "value": "${RAG_SEARCH_TEXT_EMBEDDINGS=true}"

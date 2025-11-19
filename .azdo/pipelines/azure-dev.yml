@@ -2,7 +2,6 @@
 # Set this to the mainline branch you are using
 trigger:
   - main
-  - master
 
 # Azure Pipelines workflow to deploy to Azure using azd
 # To configure required secrets and service connection for connecting to Azure, simply run `azd pipeline config --provider azdo`
@@ -13,16 +12,16 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  - task: setup-azd@0
-    displayName: Install azd
+  # - task: setup-azd@0
+  #   displayName: Install azd
 
   # If you can't install above task in your organization, you can comment it and uncomment below task to install azd
-  # - task: Bash@3
-  #   displayName: Install azd
-  #   inputs:
-  #     targetType: 'inline'
-  #     script: |
-  #       curl -fsSL https://aka.ms/install-azd.sh | bash
+  - task: Bash@3
+    displayName: Install azd
+    inputs:
+      targetType: 'inline'
+      script: |
+        curl -fsSL https://aka.ms/install-azd.sh | bash
 
   # azd delegate auth to az to use service connection with AzureCLI@2
   - pwsh: |

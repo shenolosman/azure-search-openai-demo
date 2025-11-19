@@ -1,3 +1,4 @@
+
 targetScope = 'subscription'
 
 @minLength(1)
@@ -187,7 +188,7 @@ param documentIntelligenceResourceGroupName string = '' // Set in main.parameter
 // Limited regions for new version:
 // https://learn.microsoft.com/azure/ai-services/document-intelligence/concept-layout
 @description('Location for the Document Intelligence resource group')
-@allowed(['eastus', 'westus2', 'westeurope', 'australiaeast'])
+@allowed(['eastus', 'westus2', 'westeurope', 'australiaeast','swedencentral'])
 @metadata({
   azd: {
     type: 'location'
@@ -376,6 +377,42 @@ var allMsftAllowedOrigins = !(empty(clientAppId)) ? union(msftAllowedOrigins, [ 
 // Combine custom origins with Microsoft origins, remove any empty origin strings and remove any duplicate origins
 var allowedOrigins = reduce(filter(union(split(allowedOrigin, ';'), allMsftAllowedOrigins), o => length(trim(o)) > 0), [], (cur, next) => union(cur, [next]))
 
+
+// // Parameter for user-supplied Cosmos DB password
+// @secure()
+// param cosmosDbPassword string = ''
+// // Store Cosmos DB connection string and password in Key Vault if useChatHistoryCosmos is true
+// module cosmosDbKeyVaultSecret 'core/security/keyvault-secret.bicep' = if (useAuthentication && useChatHistoryCosmos) {
+//   name: 'cosmosdb-keyvault-secret'
+//   scope: resourceGroup
+//   params: {
+//     keyVaultName: keyVault.name
+//     secretName: 'cosmosdb-connection-string'
+//     secretValue: cosmosDb.outputs.connectionString
+//   }
+// }
+
+// module cosmosDbPasswordKeyVaultSecret 'core/security/keyvault-secret.bicep' = if (useAuthentication && useChatHistoryCosmos && !empty(cosmosDbPassword)) {
+//   name: 'cosmosdb-password-keyvault-secret'
+//   scope: resourceGroup
+//   params: {
+//     keyVaultName: keyVault.name
+//     secretName: 'cosmosdb-password'
+//     secretValue: cosmosDbPassword
+//   }
+// }
+// Deploy Key Vault for secrets management
+module keyVault 'core/security/keyvault.bicep' = {
+  name: 'keyvault'
+  scope: resourceGroup
+  params: {
+    environmentName: environmentName
+    location: location
+    principalId: principalId
+    publicNetworkAccess: publicNetworkAccess
+    tags: tags
+  }
+}
 // Organize resources in a resource group
 resource resourceGroup 'Microsoft.Resources/resourceGroups@2024-11-01' = {
   name: !empty(resourceGroupName) ? resourceGroupName : '${abbrs.resourcesResourceGroups}${environmentName}'
@@ -487,6 +524,10 @@ var appEnvVariables = {
   USE_CHAT_HISTORY_BROWSER: useChatHistoryBrowser
   USE_CHAT_HISTORY_COSMOS: useChatHistoryCosmos
   AZURE_COSMOSDB_ACCOUNT: (useAuthentication && useChatHistoryCosmos) ? cosmosDb.outputs.name : ''
+  AZURE_COSMOSDB_CONNECTION_STRING_KEYVAULT: (useAuthentication && useChatHistoryCosmos) ? 'cosmosdb-connection-string' : ''
+  // AZURE_COSMOSDB_PASSWORD_KEYVAULT: (useAuthentication && useChatHistoryCosmos && !empty(cosmosDbPassword)) ? 'cosmosdb-password' : ''
+  // Application Insights is already enabled for monitoring if useApplicationInsights is true.
+  // Recommend enabling diagnostic settings for Cosmos DB and Key Vault in Azure Portal for full resource monitoring.
   AZURE_CHAT_HISTORY_DATABASE: chatHistoryDatabaseName
   AZURE_CHAT_HISTORY_CONTAINER: chatHistoryContainerName
   AZURE_CHAT_HISTORY_VERSION: chatHistoryVersion
@@ -1005,7 +1046,7 @@ module ai 'core/ai/ai-environment.bicep' = if (useAiProject) {
   scope: resourceGroup
   params: {
     // Limited region support: https://learn.microsoft.com/azure/ai-foundry/how-to/develop/evaluate-sdk#region-support
-    location: 'eastus2'
+    location: 'swedencentral'
     tags: tags
     hubName: 'aihub-${resourceToken}'
     projectName: 'aiproj-${resourceToken}'
